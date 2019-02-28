@@ -1,0 +1,160 @@
+body{
+
+  font-family: 'Roboto Condensed', sans-serif;
+font-size: 20px;
+background: url('../assets/img/crossline-lines.png');
+background-color: #feffc7;
+}
+
+.collapse{
+  background-color: #feffc7!important;
+  max-width: 100%;
+}
+.collapseOne,.collapseTwo,.collapseThree,.collapseFour{
+  background-color: #feffc7!important;
+  max-width: 100%;
+  margin:0px;
+}
+.card{
+  stroke: none;
+  border-color: #feffc7;
+  background-color: #feffc7;
+}
+.card-body{
+  background-color: #feffc7;
+  color: #DBACB5;
+  text-align: right;
+  padding-left: 0px;
+
+}
+.card-header{
+  background-color: #feffc7;
+  color: #ffc8c7;
+  text-align: center;
+}
+
+.cont{
+  padding-top:100px;
+}
+
+footer{
+  background-color: #DBACB5;
+  color: #feffc7;
+}
+
+.modal-content{
+  background-color: #ffc959;
+}
+
+.fixed-top{
+  position: fixed;
+  top: 20;
+  left: 10;
+  right: 10;
+
+}
+.btn-primary{
+  background-color: #feffc7;
+  border-color: #feffc7;
+
+}
+.btn-primary:hover{
+  background-color: #feffc7;
+  border-color: #feffc7;
+}
+.navbar{
+
+  background-color: white!important;
+}
+
+.nav-link{
+  background-color: #feffc7;
+  color: #DBACB5;
+  text-align: center;
+}
+.nav-link:hover{
+  background-color: #feffc7;
+  color: #ffc8c7;
+}
+.nav{
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  background-color: #feffc7;
+  color: #ffc959;
+  -ms-flex-align: center!important;
+  nav-items: center!important;
+}
+ .nav-items{
+     color: #fbf5f8;
+     text-decoration:none;
+}
+
+.nav-items:hover {
+    color: #ffc959;
+    text-decoration: none;
+}
+.nav-items:visited{
+  text-decoration: none;
+}
+.btn{
+  color: #ffc8c7;
+  font-size: 20px;
+  text-decoration: none;
+}
+.btn:hover{
+  color: #DBACB5;
+  text-decoration: none;
+}
+.btn-link{
+  font-size: 20px;
+  color: #blue;
+  text-decoration: none;
+  font-size: 32px;
+}
+.btn-link:hover{
+  color: #DBACB5;
+  text-decoration: none;
+}
+.btn-link:visited{
+  text-decoration: none;
+}
+.btn-social{
+  border: none;
+  stroke: none;
+}
+.container{
+  max-width: 1000px;
+  max-height: 1000px;
+  background-color: #feffc7;
+  color: #DBACB5;
+}
+
+a:link{
+  color: #DBACB5;
+}
+a:visited{
+  color: #DBACB5;
+  text-decoration: none;
+}
+a:hover{
+  color: #ffc8c7;
+  text-decoration: none;
+  background-color: #feffc7;
+}
+.sendy{
+  border-color: none;
+  stroke: none;
+}
+video{
+  position: static;
+  transform: rotate(90deg);
+margin-left: 25%;
+margin-right:25%;
+  width: 100%;
+
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
