@@ -12,16 +12,17 @@ function pagetop(){
 }
 var feed = new Instafeed({
   get: 'user',
-  userId: '11180810277',
+  userId: '11180810277', //the id and access token i was given when setting up a developer account for instagram
   accessToken: '11180810277.fbcd7ac.8ac285facbea465592e9826cafbc9d03',
   limit: 3,
+  resolution:'standard_resolution',
   filter: function(image) {
   var MAX_LENGTH = 40;
 
   // here we create a property called "short_caption"
   // on the image object, using the original caption
   if (image.caption && image.caption.text) {
-    image.short_caption = image.caption.text.slice(0,30, MAX_LENGTH);
+    image.short_caption = image.caption.text.slice(0,30, MAX_LENGTH); //displays characters of the captions 0 to 30
   } else {
     image.short_caption = "";
   }
