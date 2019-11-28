@@ -1,172 +1,159 @@
-<!-- https://github.com/tholman/obnoxious.css -->
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Becky Giffen</title>
+
+<head>
+    <meta charset="UTF-8"><!--THESE ARE ALL MY STYLESHEETS FOR WHICH I NEED FOR MY WEBSITE TO WORK INIIT-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/styles.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"><!-- linking the css pages to this html page so that they work together-->
-    <link href="css/obnoxious.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-  </head>
-  <body id="pagetop">
-    <nav class="navbar fixed-top"><!--declaring the navigation bar is always fixed to the top of the page-->
-      <img src="assets/img/logo.png"align="left" height="100" width="200">
-    </nav>
-    <br>
-    <div class="container"><!--this is my container for my first row and column for my boomerang video-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
+    <title>Becky</title><!--PAGE TITLE -->
+</head>
+
+<body class="backgroundWhite col-lg-12 col-md-12 col-sm-12" data-spy="scroll" data-target=".list-example" data-offset="50"><!--DECLARING THE COLUMN WIDTH ACROSS DEVICES-->
+    
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top col-lg-12 col-md-12 col-sm-12"> <!--MY NAVBAR STAYS FIXED-->
+    <a class="navbar-brand toplogo align-center w-50" href="/"><img id="beclog"class="animate"src="/assets/beckylogo.jpg"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span><!--TOGGLER ICON WHEN IT SHRINKS-->
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav"><!--NAVBAR COLLAPSES NEW BGR MENU-->
+      <ul class="navbar-nav">
+        <li class="nav-item active"><!--THESE ARE MY NAV ICONS ACROSS ALL-->
+          <a class="nav-link"id="about1" href="./index.html">About <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+            
+        
+    
+    <main>
+     <div id="mainSlider col-lg-12 col-md-12 col-sm-12" class="carousel slide" data-ride="carousel"><!--CAROUSEL ACROSS THE TOP OF THE PAGE-->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="w-100 h-100" src="assets/coffeetable2.jpg">
+                    <div class="carousel-caption">
+                      <h2>BECKY</h2><!--THIS IS MY FIRST CAROUSEL-->
+                      <hr>
+                      <h2> rebecca.giffen@students.plymouth.ac.uk</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+                          
+  <div class="container w-100 col-lg-12 col-xs-12"> <!--need to add href-->
+    <div class="item1" id="aboutPics" data-order="ABOUT"></div><hr><!--Flex boxes -->
+    <div class="item2" id= "webPics"data-order="WEBSITES"href="#webcont"></div>
+    <div class="item3" id="graphPics" data-order="GRAPHICS"></div>
+  </div>  
+  
+  
+
+
+      <h1>About</h1></div>
+      
+    <div class = "container w-100 h-100 col-lg-12 col-md-12 col-sm-12 col-xs-12" id="aboutcont"> <!--ABout container-->
+      
+        <div class="row">
+          <div class="col-4">
+              <img src="assets/mewithcup.jpg" class="w-100"><hr>
+          </div>
+          <div class="col-4">
+              <p>Since my studies, I have developed a strong passion for front end web development specialising in User interface and experience; and core graphics incorporating design for branding. </p><hr>
+            </div>
+            <div class="col-4">
+            <p> I’m naturally very curious and creative. The creative side of technology is very much my niche and something I am looking into continuously learning about for many years to come. I find technology fascinating because there is always more to learn.</p>
+              </div>
+      
+      
+      
+    </div>
+  </div>
+</br>
+
+<div class="row"></div>
+
+      <h1>Websites</h1></div></br> <!--first category about websites-->
       <div class="row">
-        <div class="col-6 mx-auto"><br><br> <br>
-          <video loop muted autoplay src="assets/headwiggle.MOV" class="w-100 align-center"></video><!-- this is my boomerang video which is muted and plays on an indefinite loop-->
+    <div class = "container w-100 h-100 col-lg-12 col-xs-12" id="webcont">
+      
+      <hr>
+      <img src="assets/imacportfolio1.jpg" width="15%"> <!--imac portfolio is 15%-->
+        <hr>
+      <img src="assets/imacyogan1.jpg" width="15%"><hr>
+      <img src="assets/imacgame.jpg" width="15%"><hr>
+      <img src="assets/imaccode.jpg" width="15%"><hr>
+    </div>
+  </div>
+</div>
+  <div class="row"> </div>
+    <h1>Graphics</h1></br><!--graphics section-->
+ 
+    
+        <div class = "container w-100 h-100 col-lg-12 col-xs-12" id="graphcont"><hr>
+          
+          <img id ="checknuts"src="assets/checknutsipad.jpg" width="15%"><hr><!--setting the width of each image to 15-->
+          <img src="assets/nutsinfograph.jpg"width="15%"><hr>
+          <img src="assets/phoneappport.jpg" width="15%"><hr>
+          <img src="assets/aabsorange.jpg" width="15%"><hr>
+          <img src="assets/wdlogo.jpg" width="15%"><hr>
         </div>
       </div>
-    </div>
-<!--this is my first section of the page after my video which is a menu of titles and collapse items-->
-<section id="menu">
-      <div class="container">
-      <div class="accordion"id="accordionExample">
-        <div class="card">
-    <div class="card-header col-lg-12 col-md-12 col-sm-12" id="about"> <!--declaring my card header is in these columns depending on the size of the device-->
-    </div>
-  <div class="card"><!--the first card section, all of the items in the menu will be in a card class-->
-    <div class="card-header col-lg-12 col-md-12 col-sm-12" id="about">
-      <h2 class="mb-0">
-        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><!--my first collapse title-->
-          About Me
-        </button>
-      </h2>
-    </div>
-<div id="collapseOne" class="collapse col-lg-12 col-md-4 col-sm-3" aria-labelledby="headingOne" data-parent="#accordionExample"><!--what is contained within this div is what is going to show when the about is clicked, it then collapses this information-->
-<div class="row"><!--creating a row for this information-->
-<img id="beckyPic"img src="assets/img/me.png" class="col-lg-4 col-md-4 col-sm-4 mr-auto animated bounceInLeft" height="100%" width="100%"></a>
-  <div class="card-body text-wrap col-12 ml-auto mr-2 animated bounceInLeft" style="width: 35rem;" text-align="right">
-    I am Becky, I am a 27 year old internet design student at Plymouth University, I have previously studied a FD in Computing in 2013
-  </div>
-</div>
-  </div>
-</div>
-</div>
-  <div class="card"><!-- new card for the web section-->
-    <div class="card-header col-lg-12 col-md-12 col-sm-12" id="web">
-      <h2 class="mb-0">
-        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Web
-        </button>
-      </h2>
-    </div>
-    <div id="collapseTwo" class="collapse col-lg-12 col-md-4 col-sm-3" aria-labelledby="headingTwo" data-parent="#accordionExample">
-    <div class="row">
-      <img src="assets/img/twitterweb.28.08.png" class="col-lg-4 col-md-3 col-sm-2 animated bounceInLeft" style="height:50%; width:50%">
-     <img src="assets/img/lotfwebsite.03.17.png" class="col-lg-4 col-md-3 col-sm-2 animated bounceInLeft" style="height:50%; width:33%">
-     <img src="assets/img/lettergenerator.png" class="col-lg-4 col-md-3 col-sm-2 animated bounceInLeft" style="height: 50%; width:33%">
-        <div class="card-body text-wrap col-12 ml-auto mr-2 animated bounceInLeft" style="width: 40rem;">
-        I have here a few examples of programs and webpages that I have created during my time at University.
-      </div>
-    </div>
-    </div>
-  </div>
-  <div class="card"><!-- new card for the graphics section-->
-    <div class="card-header col-lg-12 col-md-12 col-sm-12" id="graphics">
-      <h2 class="mb-0">
-        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Graphics
-        </button>
-      </h2>
-    </div>
-    <div id="collapseThree" class="collapse col-6 ml-auto mr-0" aria-labelledby="headingThree" data-parent="#accordionExample">
-      <div class="row">
-        <img src="assets/img/fentohlogo.png" class="col-lg-4 col-md-3 col-sm-2 animated bounceInLeft" style="height: 50%; width:33%">
-        <img src="assets/img/doug.png" class="col-lg-4 col-md-3 col-sm-2 animated bounceInLeft" style="height: 50%; width:33%">
-        <img src="assets/img/lotfbook.png" class="col-lg-2 col-md-2 col-sm-2 animated bounceInLeft" style="height: 33%; width:50%">
-        <div class="card-body text-wrap col-12 ml-auto mr-2 animated bounceInLeft" style="width: 40rem;">
-        I have a particular interest in using my drawing pad for Adobe software such as Illustrator and InDesign for Graphic design and type work.
-      </div>
-    </div>
-  </div>
-  <div class="card"><!-- new card for the illustyration section -->
-    <div class="card-header col-lg-12 col-md-12 col-sm-12" id="illustration">
-      <h2 class="mb-0">
-        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-          Illustration
-        </button>
-      </h2>
-    </div>
-    <div id="collapseFour" class="collapse col-6 ml-auto mr-0" aria-labelledby="headingFour" data-parent="#accordionExample">
-<div class="row">
-  <img id="brunogiff"img src="assets/img/bruno.jpeg" class="col-lg-2 col-md-2 col-sm-2 animated bounceInLeft" style="height: 25%; width:25%"></a>
-<img id="harrydog"img src="assets/img/harry.jpeg" class="col-lg-2 col-md-2 col-sm-2 animated bounceInLeft" style="height: 25%; width:25%"></a>
-<img id="dexterdog"img src="assets/img/dexter.jpeg" class="col-lg-2 col-md-2 col-sm-2 animated bounceInLeft" style="height: 25%; width:25%"></a>
-<img id="bodyy"img src="assets/img/body.jpeg" class="col-lg-2 col-md-2 col-sm-2 animated bounceInLeft"style="height: 25%; width:25%"></a>
-      <div class="card-body text-wrap col-12 ml-auto mr-2 animated bounceInLeft" style="width: 40rem;">
-      Since I was around 7 years old, my parents took me to an Art school on Saturday mornings at <a href="https://www.harbourhouse.org.uk/">Harbour House</a>. I've been a keen artist ever since. I prefer charcoal drawing of living things as opposed to landscapes.
-    </div><!-- ahref has created a link to a new webpage so that when you click harbour house it will take you to that webpage-->
-    </div>
-  </div>
-  </div>
-</div>
-</section><!-- end of this section-->
-<section class="container"><!--a new section of the webpage which is going to  be showing the instafeed -->
-  <div id="instafeed" class="row"> <!--creating a row for the element called instafeed-->
-  </div>
-</section><!--closing the instafeed section -->
-    <section>
-      <div class="container"> <!-- a new container on the webpage for contact information-->
-      <h2 class="text-center pt-5">Contact Becky</h2>
-      <hr class="mb-5">
-        <form action="https://formspree.io/rebecca.giffen@students.plymouth.ac.uk" method="POST"><!--this is telling us that when filling out the form below, this is the email address at which it is received -->
-          <div class="form-group"> <!-- the form group as the user is filling in a form -->
-            <input class="form-control" id="name" type="text" placeholder="Name" required="required"><!-- this is telling us that the name is a requirement for the form-->
+      <div class="row"></div><!--contact form-->
+          <h1>Contact Becky</h1></br>
+      <div class="container w-100 h-100 col-xl-6 col-lg-6 col-md-12 col-sm-12" id="contactForm">
+         
+              
+          <form action="https://formspree.io/rebecca.giffen@students.plymouth.ac.uk" style="width:100%"method="POST">
+         
+              <div class="form-group"style="width:100%">
+                  <label for="name">Name</label>
+                  <input class="form-control" id="name"type="text" placeholder="Name" required="required">
+                </div></br>
+              <div class="form-group">
+                <label for="Email">Email</label>
+                <input class="form-control" id="email" type="email" placeholder="Email" required="required">
+                <small id="emailHelp" class="form-text text-muted"> </small>
+              </div>
+              
+              
+              <button type="submit" class="btn btn-primary"value="send">Submit</button>
+            </form>
+              
+            
           </div>
-          <div class="form-group">
-              <input class="form-control" id="email" type="email" placeholder="Email Address" required="required">
-          </div>
-          <div class="form-group">
-              <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required"></textarea>
-          </div>
-          <div class="form-group">
-            <button id="sendy" class="btn btn-primary w-100" type="submit" value="send">Send</button><!-- a button called send to which the form is submitted when pressed-->
-          </div>
-        </form>
-      </div>
-    </section><!-- end of this section-->
-    <footer class="text-center mt-5 pt-5 pb-5"> <!-- we are now creating the footer which is the bottom section of the page-->
-      <div class="container"><!-- we are creating a new container to which the following information will all be held and displayed in-->
-        <div class="row">
+      
+      
+    </main><!--MAIN CLOSED--></br>
+<!--FOOTER-->
+    <footer> <!-- we are now creating the footer which is the bottom section of the page-->
+      <!-- we are creating a new container to which the following information will all be held and displayed in-->
+        <div class="row"></br></br></br>
           <div class="col-md-12 mb-12 mg-lg-12">
-            <h4 class="text-uppercase-center mb-4">Follow Becky on Instagram!</h4> <!-- the title of the container-->
-            <ul class="list-inline mb-0"> <!--an unordered list-->
-
-              <li class="list-inline-item"> <!--a new list-->
-                <a class="btn btn-outline-light btn-social text-center square" href="http://instagram.com/fentohweb"> <!-- when the button is pressed it will take you to this link-->
-                  <i class="fa fa-camera-retro fa-lg"></i><!--the button is displyed as this icon which is a retro looking camera  -->
-                </a>
-              </li>
-            </ul>
+            Becky Woodland<!-- the title of the container-->
+          </br>
+          <a href="https://www.instagram.com/fentoh_web/">
+          <i class="fab fa-instagram fa-5vw"></i></a>
+                
+              
           </div>
       </div>
-    </div>
-  </footer><!--closing the footer -->
-    <div class="text-center pt-1 pb-1">
-      <small>Copyright &copy; <span id="autoDate"></span></small><!--&copy shows a small c for the copyright logo -->
-    </div>
-
-    </div>
-
-<script src="js/jquery.min.js"></script> <!-- using our jquery folder with this paghe -->
-<script src="js/bootstrap.bundle.min.js"></script> <!-- we are using bootstrap with ourpage-->
-<script src="js/instafeed.min.js"></script>
-<script src="js/script.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  $("btn-primary").click(function(){
-    $("#").fadeToggle();
-  });
-});
-</script>
+    
+    </footer>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script><!--END OF SCRIPTS I NEED-->
 </html>
+
+
+<form action="https://formspree.io/rebecca.giffen@students.plymouth.ac.uk" method="POST"></form>
