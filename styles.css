@@ -1,0 +1,527 @@
+
+.window{ /* the size of my window is like 100%*/
+  height: 100%;
+}
+body {
+
+  background-color: #FFFDFA;
+  color: #3F220F;
+  position: relative;
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300))); /* to shrink */
+
+}
+
+
+
+nav{ /* style of my navs including colours and fonts etc. opacity*/
+  background-color: #FFFDFA;
+  opacity: 0.8; 
+  font-size: 48px;
+font-family: 'Be Vietnam', sans-serif;
+  color:#3F220F;
+  height:100px;
+  padding: 80px;
+ 
+
+}
+nav .navbar-nav li a{ /* the colour of the nav items*/
+  color: #3F220F!important;
+  }
+
+  nav .navbar-nav li a:hover{ /* when i hover on the nav items, this happens*/
+    color: #3F220F!important;
+    text-decoration-line: underline;
+    }
+    nav .navbar-nav li a:active{ /* when i am on that nav item, this happens, however it wouldnt work properly :((((*/
+      color: #3F220F!important;
+      text-decoration-line: underline;
+      }
+nav:hover{ /* when you hover this happens */
+  background-color: #FFFDFA;
+ 
+  font-size: 48px;
+font-family: 'Be Vietnam', sans-serif;
+  color:#3F220F;
+
+  
+ 
+}
+.nav-item{ 
+  background: none;
+  font-family: 'Barlow Condensed', sans-serif;
+
+  font-style: bold;
+  opacity: 0;
+  color:#3F220F!important;
+
+}
+.nav-item:hover{ /*for some reason it doesnt work properly when i delete this however i dont think its needed*/
+  font-family: 'Barlow Condensed', sans-serif;
+  font-style: bold;
+  opacity: 1;
+  color:#3F220F!important;
+
+}
+.about1{ /*this is to make the text on this class go smaller on scroll*/
+  background-color: #FFFDFA;
+  padding: 50px 10px;
+  color: #3F220F;
+  text-align: center;
+  font-size: 90px; 
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.carousel-item{ /*carousel properties*/
+  font-style: bold;
+  font-size: 6vw;
+  color:#3F220F !important;
+  background-color: white;
+
+
+  
+}
+.carousel-item, h1{ /* appl to the header of the carousel item*/
+  font-family: 'Barlow Condensed', sans-serif;
+  color:#756870!important;
+  font-size: 2vw !important;
+  text-align: center;
+}
+
+.carousel-item, h2{ /* appl to the smaller header of the carousel item*/
+  font-family: 'Be Vietnam', sans-serif;
+  color:#FFFDFA!important;
+  
+  font-size: 2vw !important;
+}
+.carousel-item, h2:hover{ /* appl to the smaller header of the carousel item*/
+  font-family: 'Be Vietnam', sans-serif;
+  
+  
+  font-size: 2.5vw !important; /* font to fit to device size*/
+}
+button{ /* button styles*/
+ border: 2px solid;
+  background-color:#FFFDFA; 
+  color: #3F220F;
+  font-size: 18px;
+}
+
+button:hover{ /*button styles on hover*/
+  background-color: #3F220F;
+  color: #FFFDFA;
+}
+
+
+
+h1{
+  font-size: 5vw;
+  text-align: center;
+}
+h4 {
+  font-size: 3vw;
+}
+.toplogo{ /*nav bar*/
+  position: absolute;
+  
+  width: 20%;
+  height: 10%;
+
+  font-family: 'Be Vietnam', sans-serif;
+}
+.toplogo img{ /*image in nav bar made this size*/
+position: absolute;
+ width:45%;
+left: 80%;
+
+}
+.graph1{
+  color:#80727B;
+  text-align: center;
+}
+.h1{
+  text-align: center;
+  color: #756870!important;
+  font-size: 5vw;
+  max-width: 30ch;
+}
+h3{
+  font-size: 3vw;
+  max-width: 30ch;
+  
+  
+}
+
+
+.card-body img{/*card image has these properties*/
+  height: 30%;
+  width: 100%;
+  z-index: 50;
+}
+.img__wrap { /*image wrap appears on a fixed position and has these properties*/
+  position: relative;
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+
+}
+
+.img__description { /* image descrioption for these transition on hover and shows the below applies to the text*/
+  position: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+  background: #FFFDFA;
+  color: #3F220F;
+  visibility: hidden;
+  opacity: 0.05;
+  max-width: 50ch;
+  font-size:20px;
+  text-align: right;
+  
+
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+
+
+.img__description2 {/* image descrioption for these transition on hover and shows the below applies to the text*/
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+  background: #FFFDFA;
+  color: #3F220F;
+  visibility: hidden;
+  opacity: 0.05;
+  max-width: 50ch;
+  font-size:20px;
+  text-align: right;
+  
+
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+.img__wrap2:hover .img__description2 { /*on hover */
+  visibility: visible;
+  opacity: 0.8;
+ 
+}
+.p{ /*paragraph styles listed below*/
+  font-size: 10vw;
+  font-family: 'Be Vietnam', sans-serif;
+                color: #7B435B;
+}
+
+
+.plainbasket img{ /*image has these styles applied*/
+    height: 30%;
+    width: 30%;
+    }
+    .pineapplebasket img{ /*image has these styles applied*/
+      height: 30%;
+      width: 30%;
+      }
+    /*was meant to shrink device size to font size but didnt work*/
+
+           
+            .form{ /*style oin the form*/
+              font-size: 2vw;
+              text-align: center;
+              
+
+            }
+            .form-group{ /*style oin the form*/
+          font-size: 2vw;
+              font-family: 'Be Vietnam', sans-serif;
+                color:#3F220F;
+                text-align: center;
+                border-color: #000000;
+            }
+            .btn{
+              background-color: #7B435B;
+              color: white;
+              font-size: 1vw;
+            }
+            .btn-primary{
+              background-color: #7B435B!important;
+              border: none;
+              color: white;
+              font-size: 3vw;
+            }
+          footer{ /*style in the footer*/
+            text-align: center;
+            font-size: 2vw;
+            font-family: 'Be Vietnam', sans-serif;
+            color: #756870;
+          }
+          
+          p { /*a link in paragraph apply these styles*/
+            color: #7B435B;
+            font-size: 2vw;
+          }
+        
+
+          @media only screen and (min-width: 600px) { /*cant get it to work but uts meant to shrink font :( */
+           
+           .aboutDesc{
+             font-size: 10px;
+           }
+            h1{
+              font-size:10px;
+            }
+            
+            p{
+              font-size: 2vw;
+            }
+            
+          }
+          .aboutcont{
+            font-size: 5vw;
+          }
+      
+
+.container {
+  margin: 1 auto;
+  padding: 2vw;
+  width: 1000px;
+  
+  border: 1px solid lighten(black, 10);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: auto;
+}
+.container:hover{
+  margin: 0 auto!important;
+}
+.item1{
+  flex-grow: 2;
+  height: 10vw;
+  width: 20%;
+  background-color: #80727B;
+  position: relative;
+  border: 1px solid lighten(black, 10);
+  transition: all 300ms ease-in-out;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 4vw;
+  text-align: center;
+}
+   .item1:hover {
+    flex-grow: 5.3;
+    height: 10vw;
+    background-color: #756870;
+    position: relative;
+    font-size: 1vw;
+   
+  }
+  
+  .item1:before {
+    content: attr(data-order);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .item2 {
+    flex-grow: 2;
+    height: 10vw;
+    width: 20%;
+    background-color: #8B687F;
+    position: relative;
+    border: 1px solid lighten(black, 10);
+    transition: all 300ms ease-in-out;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 4vw;
+    text-align: center;
+  }
+     .item2:hover {
+      flex-grow: 5.3;
+      height: 10vw;
+      background-color: #7B435B;
+      font-size: 1vw;
+        }
+    
+    .item2:before {
+      content: attr(data-order);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+    }
+    
+.item3{
+  flex-grow: 2;
+  height: 10vw;
+  width: 20%;
+  background-color: #AD6A6C;
+  position: relative;
+  border: 1px solid lighten(black, 10);
+  transition: all 300ms ease-in-out;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 4vw;
+}
+   .item3:hover {
+    flex-grow: 5.3;
+    height: 10vw;
+    background-color: #B47779;
+    font-size: 1vw;
+    text-align: center;
+  }
+  
+  .item3:before {
+    content: attr(data-order);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  
+    
+    .p{
+     opacity: 0;
+    }
+    .p:hover{
+      opacity: 1;
+    }
+    .aboutDesc{
+      opacity: 0;
+    }
+
+    .aboutDesc { /* image descrioption for these transition on hover and shows the below applies to the text*/
+  position: absolute;
+  background: none;
+  color: white;
+  visibility: hidden;
+  opacity: 0.05;
+  max-width: 50ch;
+  font-size:20px;
+  text-align: center;
+  
+  
+
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.item1:hover .aboutDesc { /*on hover*/
+  visibility: visible;
+  opacity: 0.8;
+  padding: 20px;
+}
+
+
+.animate{
+  transition: all 0.5s ease;
+  }
+  
+
+.webcont{
+  display: none;
+}
+
+
+
+
+/* this is here because I added a link
+in the caption that is the same colour as the background.
+-------*/
+
+.pnuts{
+  opacity: 0;
+}
+
+.pnuts { /* image descrioption for these transition on hover and shows the below applies to the text*/
+position: absolute;
+background: none;
+color: black;
+visibility: hidden;
+opacity: 0.05;
+max-width: 50ch;
+font-size:20px;
+text-align: center;
+
+
+
+
+/* transition effect. not necessary */
+transition: opacity .2s, visibility .2s;
+}
+
+
+
+.animate{
+transition: all 0.5s ease;
+}
+
+
+.img {
+  
+  width: 20%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  width:15%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#756870;
+}
+
+.container:hover .overlay {
+  opacity: 0.5;
+}
+
+.text {
+  color: white;
+  font-size: 5vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.name{
+  font-size: 3vw!important;
+}
+
+.label{
+  font-size: 3vw;
+}
+
+input{
+  border-color: #756870;
+}
+.input{
+  border-color: #756870;
+}
+
+a{
+  color: #7B435B!important;
+  text-decoration: none;
+
+}
